@@ -56,7 +56,7 @@ Este error se debe a que el modo seguro de actualización está habilitado. El m
 actualización evita que se realicen actualizaciones que puedan afectar a un gran número de filas 
 en una tabla sin especificar una cláusula WHERE que utilice una columna de índice.
 
-Para resolver este problema, puedes deshabilitar el modo seguro de actualización temporalmente 
+Para resolver este problema, hay que deshabilitar el modo seguro de actualización temporalmente 
 ejecutando el siguiente comando:*/
 
 SET SQL_SAFE_UPDATES = 0;
